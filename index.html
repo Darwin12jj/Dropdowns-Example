@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/fb421a811f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- DROPDOWN-01 -->
+
+    <div class="d-flex gap-3 gap-sm-3 flex-wrap flex-lg-nowrap justify-content-center" id="dropdownMacos">
+        <div>
+            <ul class="p-2 dropdown-menu dropdown-menu-macos shadow" style="width: 220px;" id="top">
+                <li>
+                    <a href="#" class="dropdown-item active rounded mb-1">Action</a>
+                </li>
+                <li>
+                    <a href="#" class="dropdown-item rounded pb-2">Another action</a>
+                </li>
+                <li>
+                    <a href="#" class="dropdown-item rounded pb-2">Something else here</a>
+                </li>
+                <li>
+                    <hr href="#" class="dropdown-divider rounded"></hr>
+                </li>
+                <li>
+                    <a href="#" class="dropdown-item rounded pb-2 mt-2">Separated link</a>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <ul class="p-2 dropdown-menu dropdown-menu-dark dropdown-menu-macos shadow" style="width: 220px;">
+                <li>
+                    <a href="#" class="dropdown-item active rounded mb-1">Action</a>
+                </li>
+                <li>
+                    <a href="#" class="dropdown-item rounded text-gray pb-2">Another action</a>
+                </li>
+                <li>
+                    <a href="#" class="dropdown-item rounded text-gray pb-2">Something else here</a>
+                </li>
+                <li>
+                    <hr href="#" class="dropdown-divider rounded text-gray"></hr>
+                </li>
+                <li>
+                    <a href="#" class="dropdown-item rounded text-gray pb-2 mt-2">Separated link</a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+
+    <div class="space"></div>
+
+    <!-- DROPDOWN-02 -->
+
+    <div class="dropdown-02 my-4 py-5 d-flex align-items-center justify-content-center flex-column flex-sm-row gap-3 gap-md-5 gap-sm-5">
+
+        <div class="dropdown-menu py-0 mx-0 rounded-1 shadow d-block" style="width: 280px;">
+            <form class="bg-light p-2 mb-2 border-bottom rounded-top" >
+                <input type="search" class="form-control" placeholder="Type to filter...">
+            </form>
+            <ul class="list-unstyled mb-2">
+                <li>
+                    <a href="#top" class="dropdown-item d-flex align-items-center gap-2 py-2">
+                        <span class="d-inline-block rounded-circle bg-success" style="width: 8px; height: 8px;"></span>
+                        Action
+                    </a>
+                </li>
+                <li>
+                    <a href="#top" class="dropdown-item d-flex align-items-center gap-2 py-2">
+                        <span class="d-inline-block rounded-circle bg-primary" style="width: 8px; height: 8px;"></span>
+                        Another action
+                    </a>
+                </li>
+                <li>
+                    <a href="#top" class="dropdown-item d-flex align-items-center gap-2 py-2">
+                        <span class="d-inline-block rounded-circle bg-danger" style="width: 8px; height: 8px;"></span>
+                        Something else here
+                    </a>
+                </li>
+                <li>
+                    <a href="#top" class="dropdown-item d-flex align-items-center gap-2 py-2">
+                        <span class="d-inline-block rounded-circle bg-info" style="width: 8px; height: 8px;"></span>
+                        Separated link
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="dropdown-menu py-0 mx-0 dropdown-menu-dark rounded-1 shadow d-block border-dark" style="width: 284px;">
+            <form class="bg-light p-2 mb-2 bg-dark border-bottom border-dark rounded-top" >
+                <input type="search" class="form-control form-control-dark" placeholder="Type to filter...">
+            </form>
+            <ul class="list-unstyled mb-2">
+                <li>
+                    <a href="#top" class="dropdown-item d-flex align-items-center gap-2 py-2 text-gray">
+                        <span class="d-inline-block rounded-circle bg-success" style="width: 8px; height: 8px;"></span>
+                        Action
+                    </a>
+                </li>
+                <li>
+                    <a href="#top" class="dropdown-item d-flex align-items-center gap-2 py-2 text-gray">
+                        <span class="d-inline-block rounded-circle bg-primary" style="width: 8px; height: 8px;"></span>
+                        Another action
+                    </a>
+                </li>
+                <li>
+                    <a href="#top" class="dropdown-item d-flex align-items-center gap-2 py-2 text-gray">
+                        <span class="d-inline-block rounded-circle bg-danger" style="width: 8px; height: 8px;"></span>
+                        Something else here
+                    </a>
+                </li>
+                <li>
+                    <a href="#top" class="dropdown-item d-flex align-items-center gap-2 py-2 text-gray">
+                        <span class="d-inline-block rounded-circle bg-info" style="width: 8px; height: 8px;"></span>
+                        Separated link
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="space"></div>
+
+    <div class="my-4 py-5 d-flex flex-column flex-sm-row gap-3 gap-sm-5 align-items-center justify-content-center">
+        <ul class="dropdown-menu mx-0 list-unstyled shadow" style="width: 220px;">
+            <li>
+                <a href="#top" class="dropdown-item">
+                    <i class="fa-regular fa-copy me-1"></i>
+                    Documents
+                </a>
+            </li>
+            <li>
+                <a href="#top" class="dropdown-item">
+                    <i class="fa-solid fa-image me-1"></i>
+                    Photos
+                </a>
+            </li>
+            <li>
+                <a href="#top" class="dropdown-item">
+                    <i class="fa-solid fa-film me-1"></i>
+                    Movies
+                </a>
+            </li>
+            <li>
+                <a href="#top" class="dropdown-item">
+                    <i class="fa-solid fa-music me-1"></i>
+                    Music
+                </a>
+            </li>
+            <li>
+                <a href="#top" class="dropdown-item">
+                    <i class="fa-solid fa-gamepad me-1"></i>
+                    Games
+                </a>
+            </li>
+            <li>
+                <hr href="#top" class="dropdown-divider">
+            </li>
+            <li>
+                <a href="#top" class="dropdown-item dropdown-item-danger">
+                    <i class="fa-solid fa-trash-can me-1"></i>
+                    Trash
+                </a>            
+            </li>
+        </ul>
+
+        <ul class="dropdown-menu mx-0 dropdown-menu-dark list-unstyled shadow" style="width: 220px;">
+            <li>
+                <a href="#top" class="dropdown-item text-gray">
+                    <i class="fa-regular fa-copy me-1"></i>
+                    Documents
+                </a>
+            </li>
+            <li>
+                <a href="#top" class="dropdown-item text-gray">
+                    <i class="fa-solid fa-image me-1"></i>
+                    Photos
+                </a>
+            </li>
+            <li>
+                <a href="#top" class="dropdown-item text-gray">
+                    <i class="fa-solid fa-film me-1"></i>
+                    Movies
+                </a>
+            </li>
+            <li>
+                <a href="#top" class="dropdown-item text-gray">
+                    <i class="fa-solid fa-music me-1"></i>
+                    Music
+                </a>
+            </li>
+            <li>
+                <a href="#top" class="dropdown-item text-gray">
+                    <i class="fa-solid fa-gamepad me-1"></i>
+                    Games
+                </a>
+            </li>
+            <li>
+                <hr href="#top" class="dropdown-divider">
+            </li>
+            <li>
+                <a href="#top" class="dropdown-item text-gray">
+                    <i class="fa-solid fa-trash-can me-1"></i>
+                    Trash
+                </a>            
+            </li>
+        </ul>
+    </div>
+
+    <div class="space"></div>
+
+    <div class="mx-auto p-2 dropdown-menu d-grid shadow" style="max-width:340px">
+        <div class="cal-month">
+            <button class="btn cal-btn">
+                <i class="fa-solid fa-arrow-left small"></i>
+            </button>
+            <strong class="cal-month-name">June</strong>
+            <button class="btn cal-btn">
+                <i class="fa-solid fa-arrow-right small"></i>
+            </button>
+        </div>
+        <div class="cal-weekdays text-muted">
+            <div class="cal-weekday">Sun</div>
+            <div class="cal-weekday">Mon</div>
+            <div class="cal-weekday">Tue</div>
+            <div class="cal-weekday">Wed</div>
+            <div class="cal-weekday">Thu</div>
+            <div class="cal-weekday">Fri</div>
+            <div class="cal-weekday">Sat</div>
+        </div>
+        <div class="cal-days">
+            <button class="btn cal-btn text-muted fw-light">30</button>
+            <button class="btn cal-btn text-muted fw-light">31</button>
+            <button class="btn cal-btn">1</button>
+            <button class="btn cal-btn">2</button>
+            <button class="btn cal-btn">3</button>
+            <button class="btn cal-btn">4</button>
+            <button class="btn cal-btn">5</button>
+            <button class="btn cal-btn">6</button>
+            <button class="btn cal-btn">7</button>
+            <button class="btn cal-btn">8</button>
+            <button class="btn cal-btn">9</button>
+            <button class="btn cal-btn">10</button>
+            <button class="btn cal-btn">11</button>
+            <button class="btn cal-btn">12</button>
+            <button class="btn cal-btn">13</button>
+            <button class="btn cal-btn">14</button>
+            <button class="btn cal-btn">15</button>
+            <button class="btn cal-btn">16</button>
+            <button class="btn cal-btn">17</button>
+            <button class="btn cal-btn">18</button>
+            <button class="btn cal-btn">19</button>
+            <button class="btn cal-btn">20</button>
+            <button class="btn cal-btn">21</button>
+            <button class="btn cal-btn">22</button>
+            <button class="btn cal-btn">23</button>
+            <button class="btn cal-btn">24</button>
+            <button class="btn cal-btn">25</button>
+            <button class="btn cal-btn">26</button>
+            <button class="btn cal-btn">27</button>
+            <button class="btn cal-btn">28</button>
+            <button class="btn cal-btn">29</button>
+            <button class="btn cal-btn">30</button>
+            <button class="btn cal-btn">31</button>
+        </div>
+    </div>
+
+    <div class="space"></div>
+
+    <div class="my-4 py-5">
+        <div class="dropdown-menu d-flex mx-auto p-3 rounded-3 shadow" style="max-width:600px">
+            <div class="col-11 col-sm-8 d-grid gap-2">
+                <button class="btn btn-hover-light d-flex align-items-center">
+                    <i class="fa-solid fa-image me-3 fa-2xl"></i>
+                    <div class="text-start">
+                        <strong class="d-block">Features</strong>
+                        <small>Take a tour through the product</small>
+                    </div>
+                </button>
+                <button class="btn btn-hover-light d-flex align-items-center">
+                    <i class="fa-solid fa-circle-question me-3 fa-2xl"></i>
+                    <div class="text-start">
+                        <strong class="d-block">Features</strong>
+                        <small>Take a tour through the product</small>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="space"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

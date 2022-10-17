@@ -1,0 +1,125 @@
+.space {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(105, 105, 105, 0.15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+}
+
+.dropdown-menu-macos {
+    display: grid;
+    gap: .25rem;
+    padding: .5rem;
+    border-radius: .5rem;
+  }
+
+  .dropdown-menu {
+    position: static;
+    display: block;
+    width: auto;
+    margin: 4rem auto;
+  }
+
+  
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.text-gray {
+    color: #dee2e6;
+}
+
+.form-control-dark {
+    background-color: rgba(255, 255, 255, .05);
+    border-color: rgba(255, 255, 255, .15);
+  }
+
+  .dropdown-divider {
+    height: 0;
+    margin: 0.5rem 0;
+    overflow: hidden;
+    border-top: 1px solid rgba(0,0,0,.15);
+}
+
+.dropdown-item-danger {
+  color: var(--bs-red);
+}
+
+.dropdown-item-danger:hover,
+.dropdown-item-danger:focus {
+  color: #fff;
+  background-color: var(--bs-red);
+}
+
+.dropdown-item-danger.active {
+  background-color: var(--bs-red);
+}
+
+.cal-month,
+.cal-days,
+.cal-weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  align-items: center;
+}
+
+.cal-month-name {
+  grid-column-start: 2;
+  grid-column-end: 7;
+  text-align: center;
+}
+
+.cal-weekday,
+.cal-btn {
+  height: 48px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cal-btn:not([disabled]) {
+  font-weight: 500;
+  border: none;
+}
+
+.cal-btn:hover,
+.cal-btn:focus {
+  background-color: rgba(0, 0, 0, .05);
+}
+
+.cal-btn[disabled] {
+  opacity: .5;
+}
+
+.btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+
+.btn-hover-light {
+  text-align: left;
+  background-color: var(--bs-white);
+  border-radius: .25rem;
+}
+
+.btn-hover-light:hover,
+.btn-hover-light:focus {
+  color: #0d6efd;;
+  background-color: var(--bs-light);
+}
+
+.btn:hover {
+  color: #0d6efd;
+  background-color: #f8f9fa;
+}
